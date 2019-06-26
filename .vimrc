@@ -3,6 +3,7 @@ let g:ctrlp_map = '<c-p>'
 
 set mouse=a
 set cursorline
+set cursorcolumn
 set nu
 
 :syntax on
