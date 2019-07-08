@@ -5,7 +5,8 @@ set cursorline
 set cursorcolumn
 set nu
 
-syntax on
+set tabstop=4
+set expandtab
 
 augroup ExtraWhiteSpace
     highlight extrawhitespace ctermbg=darkred guibg=darkred
@@ -21,3 +22,5 @@ set guicursor+=n-v-c:blinkon0set guicursor+=i:blinkwait10
 
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_map = '<c-p>'
+
+
