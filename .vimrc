@@ -6,9 +6,13 @@ set cursorline
 set cursorcolumn
 set nu
 
-:syntax on
-:highlight ExtraWhitespace ctermbg=darkred guibg=darkred
-:match ExtraWhitespace /\s\+$/
+syntax on
+
+augroup ExtraWhiteSpace
+    highlight extrawhitespace ctermbg=darkred guibg=darkred
+    autocmd!
+    autocmd VimEnter,WinEnter * match extrawhitespace /\s\+$/
+augroup END
 
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
