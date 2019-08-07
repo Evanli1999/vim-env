@@ -5,8 +5,11 @@ set cursorline
 set cursorcolumn
 set nu
 
-set tabstop=4
 set expandtab
+set tabstop=4
+set shiftwidth=4
+set smartindent
+set autoindent
 
 augroup ExtraWhiteSpace
     highlight extrawhitespace ctermbg=darkred guibg=darkred
