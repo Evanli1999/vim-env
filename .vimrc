@@ -1,8 +1,6 @@
 :syntax on
 
 set mouse=a
-set cursorline
-set cursorcolumn
 set nu
 
 set expandtab
