@@ -1,5 +1,3 @@
 alias gr='cd $(git rev-parse --show-cdup)'
 alias grep='grep -nr'
-alias dbtunnel='cloud_sql_proxy -dir=/cloudsql -instances=clearbanc-api-staging:us-central1:data-mostro=tcp:5433'
-alias tmux-dev='tmux new-session \; split-window -h \; split-window -h \; select-pane -L \; send-keys "dbtunnel" C-m \; split-window -v \; send-keys "htop" C-m \; select-pane -R \; send-keys "redis-server" C-m \; split-window -v \; send-keys "redis-cli" C-m \; select-pane -U \; split-window -h \;'
 alias kys='tmux kill-server'

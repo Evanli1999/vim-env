@@ -7,6 +7,7 @@ set nu
 set laststatus=2
 
 inoremap jj <ESC>
+inoremap AA <ESC>A
 
 set expandtab
 set tabstop=4
