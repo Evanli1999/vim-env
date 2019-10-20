@@ -25,6 +25,7 @@ augroup END
 call plug#begin('~/.vim/bundle')
     Plug 'kien/ctrlp.vim'
     Plug 'arcticicestudio/nord-vim'
+    Plug 'junegunn/fzf'
 call plug#end()
 
 let g:ctrlp_map = '<c-p>'
